@@ -61,7 +61,9 @@ ReactDOM.render(<App />, document.getElementById('root'));
 - 安装插件
 
 ```
-npm install i18next react-i18next i18next-xhr-backend i18next-browser-languagedetector i18next-multiload-backend-adapter --save
+npm install i18next react-i18next i18next-xhr-backend
+i18next-browser-languagedetector
+i18next-multiload-backend-adapter --save
 ```
 
 - 使用示例：
