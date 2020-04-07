@@ -1,4 +1,4 @@
-> react-i18next with Locales
+> # react-i18next with Locales
 
 - 安装插件
 
@@ -56,7 +56,7 @@ function App() {
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-> react-i18next with XHR
+> # react-i18next with XHR
 
 - 安装插件
 
@@ -67,7 +67,7 @@ npm install i18next react-i18next i18next-xhr-backend i18next-browser-languagede
 - 使用示例：
 
 ```
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import i18n from 'i18next';
 import Backend from 'i18next-xhr-backend';
